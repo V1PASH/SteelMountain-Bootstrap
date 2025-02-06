@@ -14,7 +14,8 @@
 
 .row {
     margin: 0;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 20px 0;
 }
 
 .navbar .nav-item .nav-link {
@@ -98,14 +99,15 @@
 .btn-primary {
     background-color: rgb(204, 0, 0);
     border: 1px solid rgb(204, 0, 0);
-    padding: 10px 25px;
+    padding: 10px 80px;
     border-radius: 50px;
     font-size: 20px;
 }
 
-.btn-primary:hover {
-    background-color: rgb(195, 0, 0);
-    border: 1px solid rgb(195, 0, 0);
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: rgb(185, 0, 0)!important;
+    border: 1px solid rgb(185, 0, 0)!important;
 }
 
 
@@ -125,11 +127,12 @@
 .card {
     text-align: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .card img {
     margin: 5px;
-    width: 70%;
+    width: 55%;
 }
 
 .before-price {
@@ -139,4 +142,130 @@
 .after-price {
     font-weight: 600;
     font-size: 20px;
+}
+
+.all-product-btn-sec {
+    text-align: center!important;
+}
+
+
+/* product types */
+
+.product-types-section {
+    background-color: black;
+    padding: 20px;
+}
+
+.product-types-head {
+    text-align: center;
+    color: white;
+}
+
+.product-types-section .card {
+    border-radius: 0;
+    border: none;
+}
+
+.product-types-section .card .card-body {
+    width: 100%;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.product-types-section .card img {
+    height: 250px;
+    width: 50%;
+}
+
+
+/* features section */
+
+.features-section .card img {
+    width: 30%;
+}
+
+.features-section .card .card-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.features-section .card {
+    border-radius: 0px!important;
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgb(101, 101, 101)!important;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul a:hover {
+    color: rgb(204, 0, 0);
+}
+
+footer ul i {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+footer .form-control {
+    border-radius: 20px 0 0 20px;
+    border: none!important;
+    flex: 0 1 auto!important;
+    width: 70%!important;
+}
+
+footer .form-control:focus,
+footer .form-control:focus-visible {
+    box-shadow: none!important;
+}
+
+footer button {
+    border-radius: 0 20px 20px 0 !important;
+    color: rgb(204, 0, 0) !important;
+    background-color: white!important;
+    border-left: 1px solid gray!important;
+}
+
+.keep-in-touch ul {
+    display: flex;
+    gap: 20px;
+}
+
+.keep-in-touch ul i {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid white;
+}
+
+.footer-copyright {
+    border-top: 1px solid gray;
+    text-align: center;
 }
