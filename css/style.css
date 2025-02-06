@@ -269,3 +269,12 @@ footer button {
     border-top: 1px solid gray;
     text-align: center;
 }
+
+@media (min-width: 300px) and (max-width:1100px) {
+    .social-links {
+        display: none;
+    }
+    .call-us {
+        display: none;
+    }
+}
